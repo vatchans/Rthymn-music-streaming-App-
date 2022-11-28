@@ -1,0 +1,446 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Poppins:ital@1&family=Roboto:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@700&display=swap');
+audio {
+  width: 100%;
+  height: 25px;
+}
+
+#als {
+  background-image: linear-gradient(to left, #434343 0%, black 150%);
+  /* height: max-content; */
+}
+
+#form {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  top: 50px;
+  left: 240px;
+  width: 800px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  ;
+}
+.navbar{
+  background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
+}
+.navbar-brand {
+  font-family: 'Oleo Script Swash Caps', cursive;
+}
+.navbar-brand{
+  text-decoration: none;
+}
+.navbar-brand img{
+  border-radius: 50%;
+}
+#loginbg {
+  background: url("/public/songs/SL_123119_26540_09.jpg")no-repeat;
+  background-size: 100%;
+  height: 100vh;
+}
+.signup-page{
+  margin-top:5%;
+  border: 2px solid #dddddd;
+  border-radius: 50px;
+  width: 350px;
+  height:500px;
+  text-align: center;
+  background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%);
+  background-blend-mode: screen;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  position:relative;
+  left:50%;
+  transition:.7s;
+}
+.signup-page:hover{
+  transform:scale(1.1);
+}
+.signup-page h2{
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1px;
+  font-size: 30px;
+  }
+
+.login-page {
+  border: 2px solid #dddddd;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255, 255, 255, 0.50) 47%, rgba(0, 0, 0, 0.50) 100%);
+  background-blend-mode: screen;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  position: relative;
+  left: 40%;
+  top: 38%;
+  transition: .7s;
+}
+
+.login-page:hover {
+  transform: scale(1.1);
+}
+
+.login-page h2 {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1px;
+  font-size: 40px;
+}
+.signup-page span {
+  font-family: 'Fjalla One', sans-serif;
+  color: black;
+  letter-spacing: 1px;
+  font-size: 15px;
+}
+
+.login-page span {
+  font-family: 'Fjalla One' sans-serif;
+  color: white;
+  letter-spacing: 1px;
+  font-size: 15px;
+}
+
+.text-field {
+  padding: 10px 20px;
+  margin: 10px 0;
+  border-radius: 10px;
+  font-size: 12pt;
+  border: 2px solid #dddddd;
+
+}
+
+#login {
+  padding: 5px;
+  text-align: center;
+  position: relative;
+  width: 50%;
+  margin-top: 5%;
+  margin-bottom: 6%;
+  border-radius: 10px;
+  letter-spacing: 2px;
+  border: 2px solid #dddddd;
+  color: white;
+  font-family: 'Noto Sans Wancho', sans-serif;
+  font-weight: bold;
+  background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+  font-size: 18px;
+  transition: .7s;
+}
+
+#login:hover {
+  transform: scale(1.1);
+}
+
+#phone {
+  padding-right: 25px;
+  background: url("https://i.ibb.co/8XFd2rP/viber.png") no-repeat left;
+  background-size: 20px;
+  text-align: center;
+
+}
+
+#username {
+  padding-right: 25px;
+  background: url("https://i.ibb.co/FBt64ym/user-1.png") no-repeat left;
+  background-size: 20px;
+  text-align: center;
+
+}
+
+ul {
+  list-style: none;
+}
+
+.menu {
+  display: none;
+}
+
+.menu ul {
+  display: block;
+
+}
+
+.drop:hover .menu {
+  display: block;
+}
+
+#email {
+  padding-right: 25px;
+  background: url("https://i.ibb.co/dMFHq1j/gmail.png") no-repeat left;
+  background-size: 20px;
+  text-align: center;
+}
+
+#password {
+  padding-right: 25px;
+  background: url("https://i.ibb.co/KN6m7C1/lock.png") no-repeat left;
+  background-size: 20px;
+  text-align: center;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.artistlist {
+  max-height: 240px;
+  display: flex;
+  overflow-x: auto;
+  margin-top: 10%;
+  /* position: relative;
+  left:10%; */
+  /* background-color:black; */
+}
+
+.artistlist::-webkit-scrollbar {
+  width: 0;
+}
+
+.artistlist .artist {
+  min-width: 180px;
+  height: 180px;
+  /* background-color: #0f6848; */
+  margin-right: 4px;
+  margin-left: 60px;
+ 
+
+}
+.artistlist{
+  margin-bottom:5%;
+}
+
+.artist img {
+  height: 180px;
+  width:180px;
+  border-radius: 50%;
+}
+
+.offcanvas p,
+li {
+  padding: 8px 8px 8px 32px;
+  /* text-decoration: none !important; */
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  font-family: 'Poppins', sans-serif;
+}
+
+.offcanvas p:hover {
+  color: #f1f1f1;
+}
+
+.offcanvas li:hover {
+  color: #f1f1f1;
+}
+
+
+.offcanvas-body a.active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.offcanvas li {
+  padding: 8px 8px 8px 32px;
+  /* text-decoration: none; */
+  font-size: 18px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.offcanvas {
+  background-color: #000;
+  width: 20%;
+}
+
+.offcanvasclosebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.form-control {
+
+  background: url("/public/icons8-music.gif") no-repeat right;
+  background-size: 35px;
+}
+
+#playimg {
+  background: url("/public/songs/mohammad-metri-1oKxSKSOowE-unsplash.jpg")no-repeat;
+  background-size: 100%;
+
+  /* height:800px; */
+}
+
+.signup-page {
+  margin-top: 5%;
+  border: 2px solid #dddddd;
+  border-radius: 50px;
+  width: 350px;
+  height: 500px;
+  text-align: center;
+  background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255, 255, 255, 0.50) 47%, rgba(0, 0, 0, 0.50) 100%);
+  background-blend-mode: screen;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  position: relative;
+  left: 40%;
+  transition: .7s;
+}
+
+.signup-page:hover {
+  transform: scale(1.1);
+}
+
+.rhap_repeat-button {
+  color: #0f6848 !important;
+}
+
+.rhap_controls-section {
+  color: #0f6848 !important;
+}
+
+.rhap_play-pause-button {
+  color: #ff5555 !important;
+}
+
+.rhap_button-clear.rhap_volume-button svg {
+  color: #ff5555 !important;
+  width: 80% !important;
+}
+
+.card img {
+  width: 200px;
+  padding: 20px, 20px, 20px, 20px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.signup-page {
+  margin-top: 10%;
+  border: 1px solid black;
+  width: 290px;
+  height: 450px;
+  position: absolute;
+  left: 15%;
+}
+
+.rhap_progress-filled,
+.rhap_progress-indicator {
+  background-color: #ff5555 !important;
+}
+
+.card-title {
+  color: white;
+}
+
+marquee {
+  color: #FFFFFF;
+}
+
+.rhap_main-controls-button svg {
+  width: 80% !important;
+  height: 100%;
+}
+
+.rhap_container {
+  background: #09203f !important;
+  color: white !important;
+}
+
+;
+
+#searchbar {
+  width: 70px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  margin-top: 500px;
+  ;
+}
+
+#playbar {
+  background-color: #09203f !important;
+  width: 200px;
+  border-radius: 8px;
+  height: 40px;
+  overflow: hidden;
+  padding-left: 0%;
+  font-size: 20px !important;
+  height: fit-content;
+  margin-left: 0%;
+}
+
+.card {
+  margin-top: 30px;
+  width: 250px;
+  border-color: #09203f !important;
+  background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+  /* background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+  background-blend-mode: multiply,multiply; */
+
+
+}
+
+.fa-circle-pause {
+  font-size: 20px;
+}
+
+.fa-heart {
+  color: red;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+  margin-bottom: 0px;
+  top: -15px;
+  right: -140px;
+
+}
+
+.fa-heart:hover {
+  text-shadow: 0 0 10px blue;
+}
+
+
+@media only screen and (max-device-width:618px) {
+  #searchbar {
+    width: 200px !important;
+  }
+
+  #playimg {
+    background-image: linear-gradient(to left, #434343 0%, black 150%);
+  }
+
+  .offcanvas {
+    background-color: #000;
+    width: 40%;
+  }
+
+  #form {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 50px;
+    left: 40px;
+    width: 200px;
+    color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    ;
+  }
+
+  .login-page {
+    margin-top: 10%;
+    width: 250px;
+    height: 400px;
+    position: absolute;
+    left: 15%;
+
+  }
+}
