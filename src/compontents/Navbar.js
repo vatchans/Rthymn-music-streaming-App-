@@ -5,10 +5,11 @@ function Navbar() {
     <nav class="navbar">
       <div class="container-fluid">
          <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">&#127911;</button> 
-        <a class="navbar-brand">
-          <img src="/songs/A.png" alt="" width="60" height="60" class="d-inline-block align-text-center" />
-          Rthymn
-        </a>
+        <div class="navbar-brand">
+       <img src="/A.png" alt="" width="60" height="60" class="d-inline-block align-text-center" />&nbsp;&nbsp;&nbsp;
+         <span >Rthymn</span>&nbsp;&nbsp;<span id="slogan">stream music anywhere</span><span><img src="/songs/6pkB.gif" width={"8%"} 
+         /></span>
+        </div>
       </div>
     </nav>
     <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
