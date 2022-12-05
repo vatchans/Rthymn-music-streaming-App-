@@ -493,10 +493,10 @@ marquee {
   font-size: 2vh;
 }
   #als{
-    padding-left:5vh!important;
+    padding-left:4vh!important;
    }
    #playimg{
-    padding-left:5vh!important;
+    padding-left:4vh!important;
   } 
 }
 @media only screen and (max-device-width:920px){
