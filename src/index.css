@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Poppins:ital@1&family=Roboto:ital,wght@1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@700&display=swap');
+
 audio {
   width: 100%;
   height: 25px;
@@ -7,7 +8,8 @@ audio {
 
 #als {
   background-image: linear-gradient(to left, #434343 0%, black 150%);
-  /* height: max-content; */
+  height: 100% !important;
+  padding-left:6vh;
 }
 
 #form {
@@ -20,45 +22,53 @@ audio {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   ;
 }
-.navbar{
+
+.navbar {
   background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
 }
+
 .navbar-brand {
   font-family: 'Oleo Script Swash Caps', cursive;
 }
-.navbar-brand{
+
+.navbar-brand {
   text-decoration: none;
 }
-.navbar-brand img{
+
+.navbar-brand img {
   border-radius: 50%;
 }
+
 #loginbg {
   background: url("/public/songs/SL_123119_26540_09.jpg")no-repeat;
   background-size: 100%;
   height: 100vh;
 }
-.signup-page{
-  margin-top:5%;
+
+.signup-page {
+  margin-top: 5%;
   border: 2px solid #dddddd;
   border-radius: 50px;
   width: 350px;
-  height:500px;
+  height: 500px;
   text-align: center;
-  background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%);
+  background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255, 255, 255, 0.50) 47%, rgba(0, 0, 0, 0.50) 100%);
   background-blend-mode: screen;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-  position:relative;
-  left:50%;
-  transition:.7s;
+  position: relative;
+  left: 50%;
+  transition: .7s;
 }
-.signup-page:hover{
-  transform:scale(1.1);
+
+.signup-page:hover {
+  transform: scale(1.1);
 }
-.signup-page h2{
+
+.signup-page h2 {
   font-family: 'Roboto', sans-serif;
   letter-spacing: 1px;
   font-size: 30px;
-  }
+}
 
 .login-page {
   border: 2px solid #dddddd;
@@ -84,6 +94,7 @@ audio {
   letter-spacing: 1px;
   font-size: 40px;
 }
+
 .signup-page span {
   font-family: 'Fjalla One', sans-serif;
   color: black;
@@ -175,13 +186,16 @@ ul {
   background-size: 20px;
   text-align: center;
 }
-.navbar-brand span{
-  color:#4c708b;
-  font-size:30px;
+
+.navbar-brand span {
+  color: #4c708b;
+  font-size: 30px;
 }
-#slogan{
-  font-size:20px;
+
+#slogan {
+  font-size: 20px;
 }
+
 .sidenav {
   height: 100%;
   width: 0;
@@ -215,16 +229,17 @@ ul {
   /* background-color: #0f6848; */
   margin-right: 4px;
   margin-left: 60px;
- 
+
 
 }
-.artistlist{
-  margin-bottom:5%;
+
+.artistlist {
+  margin-bottom: 5%;
 }
 
 .artist img {
   height: 180px;
-  width:180px;
+  width: 180px;
   border-radius: 50%;
 }
 
@@ -282,10 +297,9 @@ li {
 }
 
 #playimg {
-  background: url("/public/songs/mohammad-metri-1oKxSKSOowE-unsplash.jpg")no-repeat;
+  background: url("/public/songs/mohammad-metri-1oKxSKSOowE-unsplash.jpg");
   background-size: 100%;
-
-  /* height:800px; */
+  padding-left:6vh;
 }
 
 .signup-page {
@@ -317,7 +331,7 @@ li {
 
 .rhap_play-pause-button {
   /* color: #ff5555 !important; */
-  color:#2575fc!important;
+  color: #2575fc !important;
 }
 
 .rhap_button-clear.rhap_volume-button svg {
@@ -343,14 +357,16 @@ li {
 
 .rhap_progress-filled,
 .rhap_progress-indicator {
-  background-color:#eee8e8 !important;
+  background-color: #eee8e8 !important;
 }
+
 .rhap_time {
   color: lightgoldenrodyellow !important;
-  font-size: 14px!important;
+  font-size: 14px !important;
   user-select: none;
   -webkit-user-select: none;
 }
+
 .card-title {
   color: white;
 }
@@ -387,7 +403,7 @@ marquee {
   padding-left: 0%;
   font-size: 20px !important;
   height: fit-content;
-  margin-left: 0%;
+  margin-left:3%;
 }
 
 .card {
@@ -428,6 +444,7 @@ marquee {
 
   #playimg {
     background-image: linear-gradient(to left, #434343 0%, black 150%);
+    height: 100vh;
   }
 
   .offcanvas {
@@ -441,7 +458,7 @@ marquee {
     justify-content: center;
     top: 50px;
     left: 40px;
-    width: 200px;
+    width: 200px!important;
     color: white;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     ;
@@ -456,21 +473,40 @@ marquee {
     background-blend-mode: screen;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     position: relative;
-    left:10%;
+    left: 10%;
     top: 30%;
     transition: .7s;
   }
+
   .login-page span {
     font-family: 'Fjalla One' sans-serif;
-    color:black;
+    color: black;
     letter-spacing: 1px;
     font-size: 15px;
   }
-  .navbar-brand span{
-  color:#4c708b;
-  font-size:3.6vh;
+  #als{
+    padding-left:6vh!important;
+   }
+   #playimg{
+    padding-left:6vh!important;
+  } 
 }
-#slogan{
-  font-size:2vh;
+@media only screen and (max-device-width:920px){
+  #form {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 50px;
+    left: 40px;
+    width: 550px;
+    color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    ;
+  }
+ #als{
+  padding-left:6vh!important;
+ } 
+#playimg{
+  padding-left:6vh;
 }
 }
