@@ -466,4 +466,11 @@ marquee {
     letter-spacing: 1px;
     font-size: 15px;
   }
+  .navbar-brand span{
+  color:#4c708b;
+  font-size:20px;
+}
+#slogan{
+  font-size:10px;
+}
 }
