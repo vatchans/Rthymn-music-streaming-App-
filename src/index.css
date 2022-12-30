@@ -9,7 +9,7 @@ audio {
 #als {
   background-image: linear-gradient(to left, #434343 0%, black 150%);
   height: 100% !important;
-  padding-left:6vh;
+  padding-left:4vh;
 }
 
 #form {
@@ -510,7 +510,7 @@ marquee {
     ;
   }
  #als{
-  padding-left:6vh!important;
+  padding-left:4vh!important;
  } 
 #playimg{
   padding-left:6vh;
