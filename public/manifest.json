@@ -1,6 +1,6 @@
 {
-  "short_name": "Rythmn",
-  "name": "Rthymn Stream music Anywhere",
+  "short_name": "Rythm",
+  "name": "Rthym Stream music Anywhere",
   "icons": [
     {
       "src": "favicon.ico",
@@ -9,12 +9,12 @@
     },
     {
       "src": "A.png",
-      "type": "image/png",
+      "type": "image/gif",
       "sizes": "192x192"
     },
     {
       "src": "A.png",
-      "type": "image/png",
+      "type": "image/gif",
       "sizes": "512x512"
     }
   ],
