@@ -20,7 +20,7 @@ function Songcard(props) {
                 <img src={props.img} className="card-img-top mx-auto mt-3 ml-5 img-rounded" alt="..." />
 
                 <div className="card-body">
-                    <div className='heart'>
+                    <div className="heart">
                         <Heart isActive={active} onClick={() =>{{notify()}
                             setActive(!active)
                             addItem(props.item)}} />
