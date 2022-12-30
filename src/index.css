@@ -484,9 +484,6 @@ marquee {
     top: 30%;
     transition: .7s;
   }
-.slogan{
-  font-size:6vw;
-}
   .login-page span {
     font-family: 'Fjalla One' sans-serif;
     color: black;
