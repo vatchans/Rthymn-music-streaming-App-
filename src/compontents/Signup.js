@@ -30,7 +30,7 @@ function Signup() {
                     <input type="email" name="email" className="text-field" placeholder="Email" required id="email" />
                     <input type="text" name="phno" id="phone" class="text-field" placeholder="Phone number" required />
                     <input type="password" name="password" id="password" className="text-field" required placeholder="  Password" /><br />
-                    <button type="submit" id="login">Login</button><br>
+                    <button type="submit" id="login">Register</button><br>
                     </br>
                     <span>Already have an account.click</span><Link to="/"><a>&nbsp;here</a></Link>
                 </form>
