@@ -193,7 +193,7 @@ ul {
 }
 
 #slogan {
-  font-size: 20px;
+  font-size:1rem
 }
 
 .sidenav {
@@ -484,10 +484,9 @@ marquee {
     top: 30%;
     transition: .7s;
   }
-  #slogan {
-  font-size:8px;
+.slogan{
+  font-size:6vw;
 }
-
   .login-page span {
     font-family: 'Fjalla One' sans-serif;
     color: black;
