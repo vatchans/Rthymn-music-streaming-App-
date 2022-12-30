@@ -15,24 +15,6 @@ function Play(props) {
         <div id="mainMovieDiv" class="row row-cols-1 row-cols-xl-4 row-cols-md-3 row-cols-sm-2 g-4 m-1">
           {items.map((item, index) => {
             return (
-              //     <tr key={index}>
-              //       <td>
-              //         <img src={item.img} style={{ height: "6rem" }} />
-              //       </td>
-              //       <td>{item.title}</td>
-              //       <td>{item.mp3}</td>
-              //       <td>Quantity : ({item.quantity})</td>
-              //       <td>
-              //         <button
-              //           className="btn btn-danger ms-2"
-              //           onClick={() => removeItem(item.id)}
-              //         >
-              //           Remove Item
-              //         </button>
-              //       </td>
-              //     </tr>
-              //   );
-              // })}
               <div className="col movie" key={index}>
                 <div className="card" style={{ width: "18rem;" }}>
 
