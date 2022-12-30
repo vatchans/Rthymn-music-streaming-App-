@@ -16,8 +16,7 @@ function A() {
                           <img src={e.img} className="card-img-top mx-auto mt-3 ml-5 img-rounded" alt="..." />
 
                           <div className="card-body">
-                              <div><i className="fa-solid fa-heart"></i>
-                              </div>
+                             
                               <h5 className="card-title text-center">{e.title}</h5>
 
                               <marquee Scrolldelay={120}>
